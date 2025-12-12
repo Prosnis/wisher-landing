@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisher — Create wishes, share moments</title>
+    <meta name="description" content="Wisher — минималистичное приложение для создания вишлистов и пригласительных на день рождения." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-gradient"></div>
+    <header class="header">
+      <div class="container header__content">
+        <div class="logo">
+          <span class="logo__icon">✨</span>
+          <span class="logo__text">Wisher</span>
+        </div>
+        <nav class="nav">
+          <a href="#features" class="nav__link">Возможности</a>
+          <a href="#how-it-works" class="nav__link">Как это работает</a>
+          <a href="#cta" class="nav__link nav__link--primary">Скачать</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="hero__badge">Новый формат праздников · 2025</p>
+            <h1 class="hero__title">Создавай вишлисты и приглашения в одном месте.</h1>
+            <p class="hero__subtitle">
+              Wisher помогает собирать желаемые подарки и отправлять стильные цифровые приглашения на день рождения. Минимализм,
+              темная тема и плавные анимации.
+            </p>
+            <div class="hero__actions">
+              <a href="#cta" class="btn btn--primary">Получить ранний доступ</a>
+              <button class="btn btn--ghost" id="play-demo">Смотреть демо</button>
+            </div>
+            <p class="hero__note">Без спама. Только напоминания о важных датах.</p>
+          </div>
+
+          <div class="hero__preview">
+            <div class="card phone-mockup">
+              <div class="phone-mockup__header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="phone-mockup__screen">
+                <div class="wishlist">
+                  <div class="wishlist__header">
+                    <span class="pill pill--primary">Мой вишлист</span>
+                    <span class="pill pill--ghost">День рождения · 24 мая</span>
+                  </div>
+                  <ul class="wishlist__items">
+                    <li class="wishlist-item">
+                      <div class="wishlist-item__main">
+                        <span class="wishlist-item__title">Наушники с шумоподавлением</span>
+                        <span class="wishlist-item__meta">В приоритете</span>
+                      </div>
+                      <span class="wishlist-item__status wishlist-item__status--reserved">Забронировано</span>
+                    </li>
+                    <li class="wishlist-item">
+                      <div class="wishlist-item__main">
+                        <span class="wishlist-item__title">Подарочная карта в книжный</span>
+                        <span class="wishlist-item__meta">Любой номинал</span>
+                      </div>
+                      <span class="wishlist-item__status">Свободно</span>
+                    </li>
+                    <li class="wishlist-item">
+                      <div class="wishlist-item__main">
+                        <span class="wishlist-item__title">Настольная лампа</span>
+                        <span class="wishlist-item__meta">В теплых оттенках</span>
+                      </div>
+                      <span class="wishlist-item__status">Свободно</span>
+                    </li>
+                  </ul>
+
+                  <div class="invite-card">
+                    <div class="invite-card__content">
+                      <p class="invite-card__label">Приглашение</p>
+                      <h3 class="invite-card__title">Вечеринка по случаю дня рождения</h3>
+                      <p class="invite-card__meta">Суббота · 19:00 · Rooftop Space</p>
+                    </div>
+                    <button class="invite-card__cta">Открыть приглашение</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-badge floating-badge--top">
+              <span class="floating-badge__label">Напоминание</span>
+              <span class="floating-badge__text">День рождения Анны через 3 дня</span>
+            </div>
+            <div class="floating-badge floating-badge--bottom">
+              <span class="floating-badge__label">Подарок забронирован</span>
+              <span class="floating-badge__text">Алекс выбрал «Наушники с шумоподавлением»</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="section" id="features">
+        <div class="container">
+          <header class="section__header">
+            <p class="section__eyebrow">Для тех, кто любит осознанные подарки</p>
+            <h2 class="section__title">Все вокруг твоего праздника.</h2>
+            <p class="section__subtitle">
+              Wisher объединяет список желаний, приглашения и напоминания в одном простом интерфейсе в темных тонах.
+            </p>
+          </header>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-card__icon">🎁</div>
+              <h3 class="feature-card__title">Умные вишлисты</h3>
+              <p class="feature-card__text">
+                Добавляй желания с ссылками, пометками и приоритетом. Гости видят, что уже забронировано.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__icon">📨</div>
+              <h3 class="feature-card__title">Цифровые приглашения</h3>
+              <p class="feature-card__text">
+                Создавай стильные приглашения в несколько кликов. Отслеживай, кто открыл и подтвердил участие.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__icon">🌙</div>
+              <h3 class="feature-card__title">Темный минимализм</h3>
+              <p class="feature-card__text">
+                Чистая типографика, плавные градиенты и деликатные тени. Ничего лишнего, только главное.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-card__icon">⏰</div>
+              <h3 class="feature-card__title">Умные напоминания</h3>
+              <p class="feature-card__text">
+                Мягкие напоминания о предстоящих днях рождения и статусе вишлистов, без лишнего шума.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="section section--border" id="how-it-works">
+        <div class="container">
+          <header class="section__header section__header--inline">
+            <div>
+              <p class="section__eyebrow">Три шага до идеального праздника</p>
+              <h2 class="section__title">Как работает Wisher.</h2>
+            </div>
+          </header>
+
+          <ol class="steps">
+            <li class="step">
+              <div class="step__index">01</div>
+              <div class="step__content">
+                <h3 class="step__title">Создай вишлист</h3>
+                <p class="step__text">
+                  Добавь свои желания, ссылки на магазины и пометки. Раздели на категории: техника, впечатления, книги.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__index">02</div>
+              <div class="step__content">
+                <h3 class="step__title">Собери гостей</h3>
+                <p class="step__text">
+                  Отправь приглашение с вишлистом в один клик. Гости бронируют подарки, не раскрывая детали.
+                </p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__index">03</div>
+              <div class="step__content">
+                <h3 class="step__title">Наслаждайся моментом</h3>
+                <p class="step__text">
+                  Получай то, что действительно хочешь, и будь уверен, что подарки не повторятся.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section section--accent" id="cta">
+        <div class="container cta">
+          <div class="cta__content">
+            <h2 class="cta__title">Сделай следующий день рождения осознанным.</h2>
+            <p class="cta__subtitle">
+              Оставь email, и мы отправим приглашение в закрытую бету, когда Wisher будет готов.
+            </p>
+            <form class="cta__form" id="beta-form">
+              <div class="input-group">
+                <input type="email" name="email" placeholder="your@email" required />
+                <button type="submit" class="btn btn--primary">Получить доступ</button>
+              </div>
+              <p class="cta__hint">Никакого спама. Только одно письмо с приглашением.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <span class="footer__logo">Wisher</span>
+        <span class="footer__meta">2025 · Создано для тех, кто ценит внимание.</span>
+      </div>
+    </footer>
+
+    <div class="demo-modal" id="demo-modal" aria-hidden="true">
+      <div class="demo-modal__backdrop" data-close></div>
+      <div class="demo-modal__dialog">
+        <button class="demo-modal__close" data-close>&times;</button>
+        <h3 class="demo-modal__title">Демо Wisher</h3>
+        <p class="demo-modal__text">
+          В финальной версии здесь будет интерактивный превью вашей вечеринки с живыми приглашениями и вишлистами.
+        </p>
+        <p class="demo-modal__text demo-modal__text--muted">
+          А пока — минималистичный лендинг, который мы можем развивать дальше.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
